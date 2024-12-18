@@ -1,0 +1,78 @@
+.topnavbar{text-align:center;
+padding-top:20px;padding-bottom:20px;
+background:black;
+}
+
+.topnavbar a{
+	color:white;
+	border:solid 1px black;
+text-decoration:none;
+padding-top:5px;
+padding-bottom:5px;
+font-size:17px;font-family:arial;
+display:inline-block;width:80px;}
+
+.topnavbar a:hover{
+	border:solid 1px white;
+}
+
+
+
+.c_link{
+font-family:serif;
+font-size:20px;
+text-align:center;
+padding:10px;
+display:inline-block;
+width:160px;
+text-decoration:none;
+border:solid 1px #e63d06 ;
+color:#e63d06 ;
+
+}
+
+
+
+
+.c_link:hover{
+border:solid 1px #e63d06 ;
+color:white;
+background:#e63d06 ;
+}
+
+
+
+
+@media screen and (max-width:750px){
+.c_link{
+margin:15px 0px;
+width:70%;
+
+
+}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

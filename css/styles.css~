@@ -1,0 +1,351 @@
+html,body{margin:0px;padding:0px;}
+
+.topnavbar{background-color:black;text-align:center;}
+.topnavlink{color:white;text-decoration:none;font-family:gadugi;}
+
+.siteheader{
+}
+
+.cover1{
+padding:0px 0px 200px 0px ;
+background-color:rgba(0,0,0,0.7);
+height:300px;
+}
+
+.cover2{
+background-color:rgba(0,0,0,0.7);
+}
+.cover2 a{
+color:#e63d06 ;text-decoration:none;
+font-weight:bolder;
+font-family:calibri;
+}
+
+.cover2 span{
+color:#e63d06 ;
+font-weight:bolder;
+font-family:calibri;margin:0px 2px
+}
+.cover3{
+padding:0px 0px 200px 0px ;
+background-color:rgba(0,0,0,0.7);
+height:340px;
+border:solid 10px red;
+}
+
+
+.titles{  text-align:center;
+
+padding-top:50px;
+}
+.header_title1{
+font-family:corbel; color:#00f9b9;
+font-size:50px;
+text-align:center;
+padding:10px 0px;
+display:inline-block;
+text-align:right;
+letter-spacing:-2px;
+}
+
+
+
+.header_title2{
+font-family:impact;color:#e63d06 ;
+font-size:40px;
+text-align:center;letter-spacing:1px;
+padding:10px 0px;
+display:inline-block;
+text-align:left;
+margin-left:2px;
+}
+
+
+.header_links{
+	text-align:center;padding:20px 0px;
+}
+
+.header_links a{
+ text-align:center;
+ text-decoration:none;
+ color:white;
+ color:white;
+ background:#00f9b9;
+ display:inline-block;
+ width:150px;
+ border:none;
+ }
+
+.header_links a:hover{
+ background:#e63d06 ; 
+ }
+
+
+.content_link{color:gray;text-align:center;display:inline-block;
+width:30%;padding:10px;border:solid 1px gray;text-decoration:none}
+
+.content_link:hover{
+color:white;background:gray;}
+
+
+.intro_main{
+vertical-align:top;padding:50px;margin:40px 0px;	
+}
+.intro_left{
+display:inline-block;width:40%;
+vertical-align:top;}
+
+.intro_right{text-align:center;display:inline-block;width:45%;vertical-align:top;
+border:solid 0px lightgray;}
+
+
+
+
+
+/*  ABOUT SECTION*/
+
+.about_main{
+vertical-align:top;padding:70px;margin:40px 0px;	
+text-align:center;
+}
+.about_intro{
+display:inline-block;width:80%;
+text-align:center;
+}
+
+.about_image{text-align:center;display:inline-block;
+width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.what_wedo{
+text-align:center;
+margin:50px 0px;
+}
+
+.section_title{
+font-family:arial;font-size:50px;padding:10px;color:lightgray;
+}
+
+.section_title2{
+font-family:arial;font-size:50px;padding:10px;color:white;
+}
+
+.section_content_title{
+font-family:arial;
+font-size:24px;
+text-align:center;
+padding:10px 0px;
+}
+
+.item_content{
+font-family:serif;
+font-size:20px;
+text-align:center;
+padding:20px;
+margin:10px;
+height:300px;
+width:40%;
+display:inline-block;
+}
+
+
+
+.item_content2{
+font-family:serif;
+font-size:20px;
+text-align:center;
+padding:40px;
+margin:10px;
+border:solid 0px lightgray;
+width:80%;
+display:inline-block;
+}
+
+.service_desc{
+font-family:arial;
+font-size:20px;
+text-align:justify;
+padding:20px;
+margin:5px;
+height:250px;
+display:inline-block;
+}
+
+
+
+
+
+.section_content{
+font-family:serif;
+font-size:20px;
+text-align:center;
+padding:20px;
+margin:10px;
+height:60%;
+}
+
+
+
+.section_link a{
+font-family:serif;
+font-size:20px;
+text-align:center;
+padding:10px;
+display:inline-block;
+width:120px;
+text-decoration:none;
+border:solid 1px white;
+color:white;
+background:blue;
+}
+
+
+
+
+.section_link a:hover{
+border:solid 1px blue;
+color:blue;
+background:white;
+}
+
+
+
+.intro_video{background:black;
+padding:20px;text-align:center;
+margin:40px 0px;
+}
+
+
+.video_toplay{
+width:"90%";
+height:600px;
+}
+
+.services{
+font-size:20px;
+padding:10px;
+color:lightgray;
+font-family:gadugi;
+text-align:justify;
+
+}
+
+
+
+.requestform{text-align:center}
+
+.requestform form{ display:inline-block;
+width:650px;
+padding:30px 10px;
+}
+
+
+.requestform input,select,label{ display:inline-block;
+width:90%;
+padding:10px;
+font-size:18px;
+color:blue;
+margin:3px 0px;
+}
+
+
+.requestform button{ display:inline-block;
+width:50%;
+padding:10px;
+font-size:18px;
+color:blue;
+margin:10px 0px;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px){
+
+
+.intro_main{padding:10px;margin:10px 0px;	}
+.intro_left{width:80%;}
+.intro_right{width:80%;text-align:center;}
+
+
+
+.item_content{
+width:80%;
+margin:0px;
+}
+
+
+.what_wedo{
+text-align:center;
+margin:100px 0px;
+}
+
+
+
+.intro_video{
+padding:0px;
+margin:0px;
+}
+
+
+.video_toplay{ width:400px; }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
